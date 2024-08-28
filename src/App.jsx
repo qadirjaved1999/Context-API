@@ -1,15 +1,14 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { useState } from 'react';
+import './App.css';
+import UsersContextProvider from './Context/UsersContextProvider';
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <>
-      Qadir Javed
-    </>
+   <UsersContextProvider>
+    <h1>Qadir Javed</h1>
+   </UsersContextProvider>
   )
 }
 

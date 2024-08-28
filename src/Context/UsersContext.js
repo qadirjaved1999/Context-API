@@ -1,6 +1,6 @@
 import React from "react";
 
 // Global variable
-const usersContext = React.createContext()
+const UsersContext = React.createContext()
 
-export default usersContext;
+export default UsersContext;
